@@ -1,5 +1,7 @@
 spring:
   application:
-    name: demo1
+    name: SimpleService
+  profiles:
+    active: dev
 server:
-  port: 8010
+  port: 8000
